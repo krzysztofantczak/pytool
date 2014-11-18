@@ -9,7 +9,7 @@ import time
 
 # com = api1.com()
 # com.start('aqq')
-api.storage.init('my-app-id');
+# api.storage.init('my-app-id');
 
 # fetch simple string value
 print api.storage.init('my-app-id').get('pik');
