@@ -1,3 +1,4 @@
-env/*
+env/[a-z]*
+env/.Python
 sandbox/*
 *.pyc
