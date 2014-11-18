@@ -1,1 +1,2 @@
-symlink to project/src/plugins?
+symlink to project/src/plugins? or directory with pyinstaller devel output for each plugin (to not mess with source directory with binary files)?
+
