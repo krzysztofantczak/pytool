@@ -23,4 +23,6 @@ test    : ; @echo running tests...
 
 env:
 	$(VIRTUALENV) --no-site-packages env/
-	env/bin/pip install -r requirements.txt --use-mirrors
+	env/bin/pip install -r requirements.txt
+	. env/bin/activate
+
