@@ -1,7 +1,12 @@
 import zmq.green as zmq
 import zeronimo
+import storage
 
 class Application(object):
+
+    def __init__(self):
+
+        self.db = storage.storage.init('my-app-id')
 
     def rycbar123(self, ar):
         print ar
@@ -13,6 +18,13 @@ class Application(object):
         print param
 
         return 'ble'
+
+    def storage(self, d):
+
+        if hasattr(d, 'val'):
+            return self.db.set(d['key'], d['val'])
+        else:
+            return self.db.get(d['key'])
 
 class com:
 

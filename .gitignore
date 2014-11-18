@@ -2,3 +2,4 @@ env/[a-z]*
 env/.Python
 sandbox/[a-z]*
 *.pyc
+*.db*

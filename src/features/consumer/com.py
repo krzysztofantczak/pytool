@@ -33,5 +33,7 @@ class com:
 
         # rpc
         remote_result = self.customer.emit(function, param)
-        for line in remote_result.get():
-            print line
+
+        return remote_result.get()
+        # for line in remote_result.get():
+        #     print line
