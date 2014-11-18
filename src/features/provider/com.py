@@ -3,7 +3,8 @@ import zeronimo
 
 class Application(object):
 
-    def rycbar123(self):
+    def rycbar123(self, ar):
+        print ar
         for word in 'run, you clever boy; and remember.'.split():
             yield word
 
