@@ -1,7 +1,7 @@
 VIRTUALENV?=virtualenv
 REACTOR?=default
 
-PHONY: all
+.PHONY: all env
 
 PROJECT="foo bar"
 
