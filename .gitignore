@@ -1,4 +1,4 @@
 env/[a-z]*
 env/.Python
-sandbox/*
+sandbox/[a-z]*
 *.pyc
